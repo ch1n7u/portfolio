@@ -1,4 +1,3 @@
-// PATCHED PortfolioApp - Fix navigation and external links issues
 
 class PortfolioApp {
     constructor() {
@@ -125,11 +124,7 @@ class PortfolioApp {
         });
     }
 
-    /**
-     * ----------------------------------------------------------------------------------
-     * Scroll Animations & Skill Bars
-     * ----------------------------------------------------------------------------------
-     */
+
 
     setupScrollAnimations() {
         const selectors = [
@@ -160,14 +155,9 @@ class PortfolioApp {
         });
     }
 
-    /**
-     * ----------------------------------------------------------------------------------
-     * Utility Functions (if any additional needed)
-     * ----------------------------------------------------------------------------------
-     */
+
 }
 
-// Initialize portfolio logic
 window.addEventListener('DOMContentLoaded', () => {
     new PortfolioApp();
 });
